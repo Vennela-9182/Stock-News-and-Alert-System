@@ -1,1 +1,1 @@
-# Stock-News-and-Alert-System
+This project automatically checks the stock market every day and sends alerts via Twilio messages if there are significant price changes. It retrieves stock data using the Requests module and the Alpha Vantage API, fetches related news articles using the News API, and calculates the percentage change in stock prices. If the fluctuation exceeds a threshold, it sends a summary message to the user with key stock market updates
